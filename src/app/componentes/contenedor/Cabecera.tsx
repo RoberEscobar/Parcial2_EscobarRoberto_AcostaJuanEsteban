@@ -28,12 +28,12 @@ export const Cabecera = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/">
-                  Inicio
+                  Tipos de cerveza
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="*">
-                  Franquicias
+                  Precios
                 </NavLink>
               </li>
 
@@ -50,7 +50,7 @@ export const Cabecera = () => {
                 <ul className="dropdown-menu show" data-bs-popper="static">
                   <li>
                     <NavLink className="dropdown-item" to="/mencre">
-                      Registar menus
+                      Menus de cervezas
                     </NavLink>
                   </li>
                   <li>
@@ -63,14 +63,14 @@ export const Cabecera = () => {
                   </li>
                   <li>
                     <NavLink className="dropdown-item" to="menadmin">
-                      Administrar menus
+                      ¿Donde nos ubicamos?
                     </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Acerca de
+                  Variados
                 </a>
               </li>
             </ul>

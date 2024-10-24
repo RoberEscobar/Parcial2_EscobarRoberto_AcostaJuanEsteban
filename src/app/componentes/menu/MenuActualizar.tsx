@@ -2,7 +2,7 @@ export const MenuActualizar = () => {
     return (
       <>
         Soy el menú actualizar <br />
-        menu...
+        Calle 80 #3B - 20
       </>
     );
   };

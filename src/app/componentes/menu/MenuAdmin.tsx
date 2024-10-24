@@ -1,8 +1,8 @@
 export const MenuAdmin = () => {
     return (
       <>
-        Soy el menú administrar <br />
-        menu...
+        Nos ubicamos en <br />
+        Calle 80 #3B - 20
       </>
     );
   };
